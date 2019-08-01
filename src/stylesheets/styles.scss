@@ -1,5 +1,14 @@
 @import 'asset-management';
 
+/// @desc Horizontally center a block element
+
+@mixin center {
+  width: 100%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @font-face {
   font-family: 'My Awesome Font';
   font-weight: normal;
@@ -11,4 +20,8 @@
 
 .foo {
   background-image: image('kittens.png');
+}
+
+.container {
+  @include center;
 }

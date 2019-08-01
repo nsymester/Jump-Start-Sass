@@ -7,4 +7,10 @@
 .foo {
   background-image: url("http://cdn.example.com/assets/images/kittens.png"); }
 
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*# sourceMappingURL=maps/styles.css.map */

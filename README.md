@@ -1,6 +1,6 @@
 # Jump Start Sass
 
-Based on the [Jump Start Sass](https://www.sitepoint.com/premium/books/jump-start-sass)
+Based on the book [Jump Start Sass](https://www.sitepoint.com/premium/books/jump-start-sass)
 
 ## Installation
 
