@@ -1,0 +1,14 @@
+@import 'asset-management';
+
+@font-face {
+  font-family: 'My Awesome Font';
+  font-weight: normal;
+  font-style: normal;
+  src: font('my-awesome-font.eot?iefix') format('woff'),
+       font('my-awesome-font.woff2') format('woff2'),
+       font('my-awesome-font.ttf') format('truetype');
+}
+
+.foo {
+  background-image: image('kittens.png');
+}

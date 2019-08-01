@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'My Awesome Font';
+  font-weight: normal;
+  font-style: normal;
+  src: url("http://cdn.example.com/assets/fonts/my-awesome-font.eot?iefix") format("woff"), url("http://cdn.example.com/assets/fonts/my-awesome-font.woff2") format("woff2"), url("http://cdn.example.com/assets/fonts/my-awesome-font.ttf") format("truetype"); }
+
+.foo {
+  background-image: url("http://cdn.example.com/assets/images/kittens.png"); }
+
+/*# sourceMappingURL=maps/styles.css.map */
