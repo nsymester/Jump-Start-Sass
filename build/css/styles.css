@@ -1,3 +1,22 @@
+/**
+ * @desc clearing float
+ */
+.message {
+  padding: 10px;
+  border: 1px solid currentcolor; }
+
+.message-info {
+  color: blue;
+  background-color: #6666ff; }
+
+.message-danger {
+  color: red;
+  background-color: #ff6666; }
+
+.message-confirm {
+  color: green;
+  background-color: #00e600; }
+
 @font-face {
   font-family: 'My Awesome Font';
   font-weight: normal;
@@ -12,5 +31,30 @@
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto; }
+
+.u-cfx .blue-block {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-color: lightskyblue;
+  border: 1px solid darkblue; }
+
+.u-cfx .float-left {
+  float: left; }
+
+.u-cfx .block-container:before, .u-cfx .block-container:after {
+  content: '';
+  display: table; }
+
+.u-cfx .block-container:after {
+  clear: both; }
+
+header {
+  height: 400px;
+  display: block; }
+  header .fullheight {
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1563071990-a9023d430aa7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixlib=rb-1.2.1&q=80&w=1280") no-repeat center center fixed;
+    background-size: cover; }
 
 /*# sourceMappingURL=maps/styles.css.map */

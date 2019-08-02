@@ -1,4 +1,6 @@
+@import 'utils';
 @import 'asset-management';
+@import 'alert';
 
 /// @desc Horizontally center a block element
 
@@ -14,8 +16,8 @@
   font-weight: normal;
   font-style: normal;
   src: font('my-awesome-font.eot?iefix') format('woff'),
-       font('my-awesome-font.woff2') format('woff2'),
-       font('my-awesome-font.ttf') format('truetype');
+    font('my-awesome-font.woff2') format('woff2'),
+    font('my-awesome-font.ttf') format('truetype');
 }
 
 .foo {
@@ -25,3 +27,35 @@
 .container {
   @include center;
 }
+
+.u-cfx {
+  .blue-block {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: lightskyblue;
+    border: 1px solid darkblue;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .block-container {
+    @include clearfix;
+  }
+}
+
+header {
+  height: 400px;
+  display: block;
+
+  .fullheight {
+    height: 100%;
+
+    @include backImage(
+      'https://images.unsplash.com/photo-1563071990-a9023d430aa7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixlib=rb-1.2.1&q=80&w=1280'
+    );
+    // @include backImage('https://source.unsplash.com/category/nature/1280x720');
+  } // fullheight
+} // header

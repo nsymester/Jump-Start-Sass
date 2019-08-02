@@ -1,0 +1,21 @@
+@mixin message($color, $background-color: lighten($color, 20%)) {
+  color: $color;
+  background-color: $background-color;
+}
+
+.message {
+  padding: 10px;
+  border: 1px solid currentcolor;
+}
+
+.message-info {
+  @include message(blue);
+}
+
+.message-danger {
+  @include message(red);
+}
+
+.message-confirm {
+  @include message(green);
+}
