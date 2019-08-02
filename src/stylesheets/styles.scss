@@ -54,7 +54,7 @@ header {
     height: 100%;
 
     @include backImage(
-      'https://images.unsplash.com/photo-1563071990-a9023d430aa7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixlib=rb-1.2.1&q=80&w=1280'
+      'https://images.unsplash.com/photo-1563071990-a9023d430aa7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixlib=rb-1.2.1&q=80&w=800'
     );
     // @include backImage('https://source.unsplash.com/category/nature/1280x720');
   } // fullheight
